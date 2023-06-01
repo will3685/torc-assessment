@@ -10,7 +10,6 @@ class Receipt
     tax = 0
     tax += item.price * (BASIC_TAX_RATE / 100.0) unless exempt_from_basic_tax?(item)
     tax += item.price * (IMPORT_DUTY_RATE / 100.0) if item.imported
-    # puts "#{tax}"
     round_tax(tax)
   end
 

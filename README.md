@@ -16,9 +16,6 @@ It calculates basic sales tax and import duty  according to specific rules. The 
 2. Change to the repository directory:
    cd torc-assessment
 
-3. Install dependencies
-  bundle install
-
 Usage 
 To generate a sales receipt, follow these steps:
 1. Open the `main.rb` file.
